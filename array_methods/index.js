@@ -1,4 +1,3 @@
-
 "use strict";
 
 const title = document.getElementById("title").innerHTML = "Array methods";
@@ -16,3 +15,14 @@ let concat = planets.concat(newPlanet);
 //["Mars", "Uranus", "Venus", "Proxima centauri B"];
 
 const res = document.getElementById("concat").innerHTML = 'Concatenation: ' + concat.join(" | ");
+
+// ---------------
+
+
+
+let numbers = [1,2,3,4];
+
+const sub2 = document.getElementById("sub2").innerHTML = "Join method";
+
+const join = document.getElementById("join").innerHTML = 'Numbers: ' + numbers.join("  ");
+const join2 = document.getElementById("join2").innerHTML = 'Join: ' + numbers.join(".");
